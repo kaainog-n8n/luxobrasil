@@ -310,7 +310,7 @@ const Pricing = () => {
           <ul className="space-y-4 mb-12">
             <li className="flex items-center gap-3"><CheckCircle size={18} className="text-green-500 shrink-0" /> Resposta em &lt;2min (nunca perde lead)</li>
             <li className="flex items-center gap-3"><CheckCircle size={18} className="text-green-500 shrink-0" /> Imóveis do Stays.net ou planilha Excel</li>
-            <li className="flex items-center gap-3"><CheckCircle size={18} className="text-green-500 shrink-0" /> Follow-ups automáticos até fechar</li>
+            <li className="flex items-center gap-3"><CheckCircle size={18} className="text-green-500 shrink-0" /> Follow-ups automáticos até fechar 150/dia</li>
             <li className="flex items-center gap-3"><CheckCircle size={18} className="text-green-500 shrink-0" /> Lead quente no WhatsApp do corretor</li>
           </ul>
           <div className="mb-8 p-6 bg-white rounded-2xl border border-gray-100 shadow-inner">
