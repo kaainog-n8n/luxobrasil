@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IA LuxoBrasil - Automação Premium</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700;800&family=Bricolage+Grotesque:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #FFFFFF;
+        color: #000000;
+        overflow-x: hidden;
+      }
+      h1, h2, h3, h4 {
+        font-family: 'Playfair Display', serif;
+      }
+      .glass {
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+      }
+      .gold-gradient {
+        background: linear-gradient(135deg, #CCAE34 0%, #E6D285 50%, #CCAE34 100%);
+      }
+      .gold-text {
+        color: #CCAE34;
+      }
+      .gold-border {
+        border-color: #CCAE34;
+      }
+      .fade-up {
+        animation: fadeUp 0.8s ease-out forwards;
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      @keyframes fadeUp {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .pulse-glow {
+        animation: pulseGlow 2s infinite;
+      }
+      @keyframes pulseGlow {
+        0%, 100% { box-shadow: 0 0 0 0 rgba(204, 174, 52, 0.4); }
+        50% { box-shadow: 0 0 20px 10px rgba(204, 174, 52, 0.2); }
+      }
+      .shine-sweep {
+        position: relative;
+        overflow: hidden;
+      }
+      .shine-sweep::after {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(to bottom right, transparent, rgba(255,255,255,0.3), transparent);
+        transform: rotate(45deg);
+        transition: 0.5s;
+      }
+      .shine-sweep:hover::after {
+        left: 100%;
+        top: 100%;
+      }
+
+      /* Infinite Ticker Styles */
+      .ticker-container {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        background: rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(4px);
+        padding: 10px 0;
+        border-top: 1px solid rgba(201, 169, 97, 0.3);
+        border-bottom: 1px solid rgba(201, 169, 97, 0.3);
+      }
+      .ticker-content {
+        display: inline-block;
+        animation: ticker 30s linear infinite;
+        font-family: 'Bricolage Grotesque', sans-serif;
+        color: #C9A961;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.25rem;
+        letter-spacing: 0.05em;
+      }
+      @keyframes ticker {
+        0% { transform: translate3d(0, 0, 0); }
+        100% { transform: translate3d(-50%, 0, 0); }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "recharts": "https://esm.sh/recharts@^3.7.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "IA LuxoBrasil Landing Page",
+  "description": "Uma experiência imersiva de luxo digital para conversão absoluta em automação de IA para o mercado imobiliário premium.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
