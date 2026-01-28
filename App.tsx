@@ -473,10 +473,10 @@ const WhatsAppPreview = () => {
 
 const FAQTimeline = () => {
   const faqs = [
-    { q: "O que muda na prática com a IA?", a: "Sua equipe para de responder perguntas repetitivas como 'tem piscina?' ou 'qual o valor da faxina?' e foca em convencer o lead a fechar a reserva ou visita." },
+    { q: "O que muda na prática com a IA?", a: "Sua equipe para de responder perguntas repetitivas como 'tem piscina?' ou 'qual o valor da faxina?' e foca na etapa final do lead e fechar a reserva ou visita." },
     { q: "Funciona com meu CRM atual?", a: "Totalmente. Integramos com Kommo, RD Station, HubSpot ou qualquer sistema que receba Webhooks." },
     { q: "Qual o prazo de ativação?", a: "Nosso setup leva de 3 a 5 dias úteis para estar em produção com os primeiros leads sendo qualificados." },
-    { q: "Complementa a Perception360?", a: "Sim! Somos o braço direito da Perception. Eles trazem o volume, nós garantimos que sua equipe não perca tempo com leads desqualificados." }
+    { q: "Complementa a Perception360?", a: "Sim! Seremos o braço direito da Perception. Eles trazem o volume, nós garantimos que sua equipe não perca tempo com leads desqualificados." }
   ];
 
   const steps = [
