@@ -402,15 +402,15 @@ const ROISection = () => {
           </ResponsiveContainer>
         </div>
         <div>
-          <h2 className="text-4xl mb-6 uppercase tracking-tight">Recupere R$ 4.583/mês em vendas perdidas</h2>
+          <h2 className="text-4xl mb-6 uppercase tracking-tight">Converta Demanda Não Capturada em Receita Recorrente</h2>
           <div className="space-y-6">
             <div className="flex items-start gap-4">
               <div className="bg-[#CCAE34]/10 p-3 rounded-2xl">
                 <TrendingUp className="gold-text" />
               </div>
               <div>
-                <p className="font-bold text-xl uppercase tracking-tighter">ROI de 359%</p>
-                <p className="text-gray-600">Considerando 5 temporadas (R$2.500) + 1 venda/ano.</p>
+                <p className="font-bold text-xl uppercase tracking-tighter">ROI projetado: ~359%</p>
+                <p className="text-gray-600">Projeção baseada em 2 reservas/mês (comissão média de R$ 2.500) + 1 venda anual.</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -419,7 +419,7 @@ const ROISection = () => {
               </div>
               <div>
                 <p className="font-bold text-xl uppercase tracking-tighter">Payback Expresso</p>
-                <p className="text-gray-600">Investimento recuperado em média em 17 dias de operação ativa.</p>
+                <p className="text-gray-600">Investimento recuperado em média em 15–25 dias de operação ativa.</p>
               </div>
             </div>
           </div>
@@ -473,10 +473,10 @@ const WhatsAppPreview = () => {
 
 const FAQTimeline = () => {
   const faqs = [
-    { q: "O que muda na prática com a IA?", a: "Sua equipe para de responder perguntas repetitivas como 'tem piscina?' ou 'qual o valor da faxina?' e foca na etapa final do lead e fechar a reserva ou visita." },
-    { q: "Funciona com meu CRM atual?", a: "Totalmente. Integramos com Kommo, RD Station, HubSpot ou qualquer sistema que receba Webhooks." },
-    { q: "Qual o prazo de ativação?", a: "Nosso setup leva de 3 a 5 dias úteis para estar em produção com os primeiros leads sendo qualificados." },
-    { q: "Complementa a Perception360?", a: "Sim! Seremos o braço direito da Perception. Eles trazem o volume, nós garantimos que sua equipe não perca tempo com leads desqualificados." }
+    { q: "O que muda na prática com a IA?", a: "A IA assume o atendimento inicial 24h, responde perguntas operacionais (valores, taxas, regras, disponibilidade) e entrega apenas leads qualificados para sua equipe focar em fechar reservas e vendas." },
+    { q: "Funciona com meu CRM atual?", a: "Sim. Integramos com Kommo, RD Station, HubSpot ou qualquer CRM que aceite Webhooks, sem necessidade de mudar seu processo atual." },
+    { q: "Qual o prazo de ativação?", a: "O setup leva de 3 a 7 dias úteis. Após esse período, o sistema já começa a qualificar e distribuir leads automaticamente." },
+    { q: "Complementa a Perception360?", a: "Sim. A Perception360 gera o volume de demanda; nossa automação garante que nenhum lead quente se perca por demora no atendimento ou falta de follow-up." }
   ];
 
   const steps = [
@@ -526,8 +526,8 @@ const FooterCTA = () => {
     <div className="fixed bottom-12 left-0 right-0 z-50 px-[5%] flex justify-center pointer-events-none">
       <div className="glass p-4 md:p-6 rounded-[32px] border-2 border-[#CCAE34]/40 shadow-2xl flex flex-col md:flex-row items-center gap-6 max-w-4xl w-full pointer-events-auto">
         <div className="text-center md:text-left hidden md:block">
-          <p className="font-bold text-lg leading-tight uppercase tracking-tighter">Pronto para a Automação Luxo?</p>
-          <p className="text-xs gold-text uppercase font-bold tracking-widest">Ativação em até 5 dias úteis</p>
+          <p className="font-bold text-lg leading-tight uppercase tracking-tighter">Pronto para a otimizar?</p>
+          <p className="text-xs gold-text uppercase font-bold tracking-widest">Ativação em até 7 dias úteis</p>
         </div>
         <div className="flex gap-4 w-full md:w-auto">
           <a 
@@ -586,7 +586,7 @@ export default function App() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <Card className="bg-white/10 text-white border-white/20">
             <h3 className="gold-text font-bold mb-4 uppercase">Transparência</h3>
-            <p className="text-sm opacity-80">50% Entrada + 50% Go-Live. Pagamento por PIX ou Cartão em até 12x.</p>
+            <p className="text-sm opacity-80">50% Entrada + 50% Go-Live. Pagamento por PIX ou Cartão.</p>
           </Card>
           <Card className="bg-white/10 text-white border-white/20">
             <h3 className="gold-text font-bold mb-4 uppercase">Sem Fidelidade</h3>
